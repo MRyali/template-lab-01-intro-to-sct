@@ -3,9 +3,15 @@
 using namespace std;
 
 int main() {
-	Rectangle rect;
-	rect.set_width(3);
-	rect.set_height(4);
-	cout << "Rectangle area: " << rect.area() << endl;
+	Rectangle rect1, rect2;
+
+	rect1.set_width(3);
+	rect1.set_height(4);
+
+	rect2.set_width(4);
+	rect2.setheight(2);
+
+	cout << "Rectangle area: " << rect1.area() << endl;
+	cout << "rectangle 2 area: " << rect2.area() << endl;
 	return 0;
 }
